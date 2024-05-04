@@ -29,7 +29,7 @@ export default function Technology() {
     return (
         <>
 
-            <section className="tf-section technology" style={{marginTop:"160px"}}>
+            <section className="tf-section technology" style={{marginTop:"100px"}}>
                 <div className="container w_1490">
                     <div className="row">
                         <div className="col-lg-6 col-md-12">
