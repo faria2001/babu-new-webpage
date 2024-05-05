@@ -35,9 +35,9 @@ export default function Technology() {
                         <div className="col-lg-6 col-md-12">
                             <div className="tf-title" data-aos="fade-right" data-aos-duration={800}>
                                 <div className="img_technology">
-                                    <img src="/assets/images/common/panda_coin_relax.png" alt="" />
+                                    <img src="/assets/images/common/bear_teacher.png" alt="" />
                                     <img className="coin coin_1" src="/assets/images/common/coin1.png" alt="" />
-                                    <img className="coin coin_2" src="/assets/images/common/coin2.png" alt="" />
+                                    {/* <img className="coin coin_2" src="/assets/images/common/coin2.png" alt="" /> */}
                                     <img className="coin coin_3" src="/assets/images/common/coin3.png" alt="" />
                                     <img className="coin coin_4" src="/assets/images/common/coin4.png" alt="" />
                                     <img className="coin coin_5" src="/assets/images/common/coin5.png" alt="" />

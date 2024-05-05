@@ -1693,6 +1693,17 @@ form button {
   border: 2px solid rgba(255, 255, 255, 0.0784313725);
   margin: 0 auto 30px auto;
 }
+
+.project-info-form.no-style {
+  border: none;  /* Removes the border */
+  margin: 0;
+  padding: 0;
+}
+
+.forget-form.project-info-form.no-style {
+  padding: 0;
+}
+
 .project-info-form.check-radio {
   padding-bottom: 7px;
 }
