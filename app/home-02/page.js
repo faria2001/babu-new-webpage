@@ -36,7 +36,7 @@ export default function Home2() {
                     {/* <Technology /> */}
                     {/* <Roadmap /> */}
                     {/* <Project23 /> */}
-                    <Team2 />
+                    {/* <Team2 /> */}
                 </div>
                 
                 <Partner2 />

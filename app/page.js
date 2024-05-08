@@ -15,6 +15,8 @@ import Project1 from "@/components/sections/Project1"
 import Project21 from "@/components/sections/Project21"
 import Project31 from "@/components/sections/Project31"
 import Project4 from "@/components/sections/Project4"
+import Project22 from "@/components/sections/Project1"
+import AboutBuBu from "@/components/sections/aboutBuBu"
 import Team1 from "@/components/sections/Team1"
 import Token1 from "@/components/sections/Token1"
 
@@ -46,18 +48,18 @@ export default function Home() {
                     </div> 
                      
                     <Technology />
-                    <Roadmap />
+                    {/* <Roadmap /> */}
 
                 {/* <Pagetitle2 /> */}
-                  <Feature1 />  
-
-                    {/* <Project22 /> */}
+                  {/* <Feature1 />   */}
+                    <AboutBuBu/>
+                     
                     <Token2 />
                     {/* <Tiersystem /> */}
                     {/* <Technology /> */}
                     {/* <Roadmap /> */}
                     {/* <Project23 /> */}
-                    <Team2 />
+                     {/* <Team2 /> */}
 
                      </div>
                 
