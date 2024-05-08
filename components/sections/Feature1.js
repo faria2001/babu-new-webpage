@@ -5,6 +5,16 @@ import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
+const topPicture = {
+    zIndex: 888,
+    background: 'url(/_next/static/media/bg_img_team.1a81c964.png) center center no-repeat',
+    top:-60,left:90,
+    width: '156px',
+    height: '176px',
+    margin: '0 auto',
+    position: 'absolute',
+  };
+
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 1,
@@ -48,16 +58,28 @@ export default function Feature1() {
                                     <Swiper {...swiperOptions} className="swiper-wrapper">
                                         <SwiperSlide>
                                             <div className="icon-box">
-                                                <div className="top">
-                                                    {/* <div className="icon">
+                                            
+                                            <div className="top">
+                                                
+                                                <div className="content" style={{zIndex:'1'}}>
+                                                    <h5 style={{marginTop:"20px", }}><Link href="/project-list">Eco-Warrior</Link></h5>
+                                                    <p style={{height:"200px"}}>A portion of Bubu’s transactions is dedicated to forest conservation projects, protecting Bubu's home and the homes of his forest friends. This initiative has resonated deeply with environmentally conscious investors.</p>
+                                                </div>
+                                            </div>
+                                            <div className="topPicture"><img src="/assets/images/common/team_5.png" alt=""/></div>
+
+                                                {/* <div className="top">
+                                                      <div className="icon">
                                                         <img src="/assets/images/common/icon_1.png" alt="" />
-                                                    </div> */}
-                                                    <div className="content">
+                                                    </div>  
+                                                    
+                                                    <div className="content" >
+
                                                         <h5 style={{marginTop:"20px"}}><Link href="/project-list">Eco-Warrior</Link></h5>
                                                         <p style={{height:"200px"}}>A portion of Bubu’s  transactions is dedicated to forest conservation projects, protecting Bubu's home and the homes of his forest friends. 
                                                         This initiative has resonated deeply with environmentally conscious investors.</p>
                                                     </div>
-                                                </div>
+                                                </div> */}
                                                 <div className="bottom">
                                                     <img src="/assets/images/backgroup/bg_bt_box_1.png" alt="" />
                                                 </div>
